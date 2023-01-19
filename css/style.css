@@ -1,0 +1,83 @@
+/* Alignment and margins*/
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-top {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding-top {
+  padding-top: 80px;
+}
+
+.padding-top-s {
+  padding-top: 40px;
+}
+
+
+.padding-bottom {
+  padding-bottom: 80px;
+}
+
+.padding-bottom-s {
+  padding-bottom: 40px;
+}
+
+.translate-up{
+  transform: translate(0,-50%);
+}
+
+.fixx{
+  position: fixed;
+  top:0;
+}
+
+.navbar{
+  background-color: #ff645c;
+}
+
+
+#One{
+  background-color: #ff645c;
+  height: 100vh;
+}
+
+.Two{
+  background-color: #2a2a2a;
+  height: 200vh;
+}
+
+body{
+  font-size: 14px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #ffffff;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+a{
+  color: #ffffff;
+}
+
+a:hover{
+  color: #ffffff;
+  font-family: inherit;
+}
