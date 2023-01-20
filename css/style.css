@@ -26,7 +26,6 @@
   padding-top: 20px;
 }
 
-
 .padding-bottom {
   padding-bottom: 80px;
 }
@@ -61,11 +60,11 @@
 
 .Two{
   background-color: #2a2a2a;
-  height: 200vh;
 }
 
+/*Text*/
 body{
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'IBM Plex Sans', sans-serif;
   color: #ffffff;
 }
@@ -89,4 +88,32 @@ a{
 a:hover{
   color: #ffffff;
   font-family: inherit;
+}
+
+mark {
+  background-color: #ffffff;
+}
+
+/*Images*/
+.imgcover{
+  opacity: 1;
+  transition: .4s ease;
+}
+
+.imgcover:hover {
+  filter: grayscale(70%);
+  transform: scale(1.08);
+}
+
+.imgcard{
+background-color: #ffffff;
+}
+
+/* responsively apply fixed position */
+@media (min-width: 576px){
+    .leftt {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
 }
