@@ -94,6 +94,13 @@ mark {
   background-color: #ffffff;
 }
 
+.mybtn {
+  background-color: inherit;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 1px;
+}
+
 /*Images*/
 .imgcover{
   opacity: 1;
